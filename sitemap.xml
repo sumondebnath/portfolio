@@ -6,17 +6,17 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://saikatroy.netlify.app/</loc>
+  <loc>https://sumondebnath.github.io/portfolio/</loc>
   <lastmod>2024-06-08T17:29:36+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://saikatroy.netlify.app/portfolio-page</loc>
+  <loc>https://sumondebnath.github.io/portfolio/portfolio-page</loc>
   <lastmod>2024-06-08T17:29:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://saikatroy.netlify.app/blog</loc>
+  <loc>https://sumondebnath.github.io/portfolio/blog</loc>
   <lastmod>2024-06-08T17:29:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
