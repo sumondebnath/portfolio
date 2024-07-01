@@ -80,7 +80,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/me-moving.gif" alt="Sumon-Debnath-Image" class="img-fluid rounded-circle" width="512"
+        <img src="assets/img/sumon-profile-image.jpg" alt="Sumon-Debnath-Image" class="img-fluid rounded-circle" width="512"
           height="512">
         <h1 class="text-light"><a rel="noopener" href="/">Sumon Debnath</a></h1>
         <div class="social-links mt-3 text-center">
@@ -101,9 +101,9 @@
           <li><a rel="noopener" href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
           <li><a rel="noopener" href="#services"><i class="bx bx-server"></i> Services</a></li>
           <!-- <li><a rel="noopener" href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
-          <li><a rel="noopener" href="./blog.html"><i class="bx bxl-blogger"></i> <span>Blog</span></a></li>
+          <!-- <li><a rel="noopener" href="./blog.html"><i class="bx bxl-blogger"></i> <span>Blog</span></a></li> -->
           <li><a rel="noopener" href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-          <li><a rel="noopener" href="./assets/cv/CV_Sumon _Debnath.pdf" target="_blank"><i class="bx bx-book-content"></i>
+          <li><a rel="noopener" href="./assets/cv/My_Resume.pdf" target="_blank"><i class="bx bx-book-content"></i>
               Download CV</a>
           </li>
 
@@ -819,18 +819,18 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form name="contact" method="POST"  class="email-form">
+            <form name="contact" method="POST" data-netlify="true" class="email-form">
               <div class="form-group">
                 <label for="name">Your Name: </label>
-                <input class="form-control" type="text" name="name" id="name" />
+                <input class="form-control" type="text" name="name" id="name" required/>
               </div>
               <div class="form-group">
                 <label for="email">Your Email:</label>
-                <input class="form-control" type="email" name="email" id="email" />
+                <input class="form-control" type="email" name="email" id="email" required/>
               </div>
               <div class="form-group">
                 <label for="message">Message:</label>
-                <textarea class="form-control" name="message" rows="8" id="message"></textarea>
+                <textarea class="form-control" name="message" rows="8" id="message" required></textarea>
               </div>
               <div class="text-center">
                 <button type="submit">Send Message</button>
